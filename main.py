@@ -45,7 +45,7 @@ def extract():
         with open(path, 'w') as f:
             json.dump(export, f)
         counter = counter + 1
-        print("EXPORTING FILE", counter + "PATH:", path)
+       
 
 if __name__ == '__main__':
     extract()
